@@ -2,8 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Client : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
+
+    public GameObject Client;
+    public GameObject Bartender;
     // Start is called before the first frame update
     void Start()
     {
